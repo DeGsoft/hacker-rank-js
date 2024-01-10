@@ -1,68 +1,68 @@
 # Mini-Max Sum
-Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. 
+Dado cinco enteros positivos, encuentra los valores mínimo y máximo que se pueden calcular sumando exactamente cuatro de los cinco enteros.
 
-Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+Luego imprime los valores mínimo y máximo respectivos en una sola línea, separados por un espacio, como dos enteros largos.
 
-## Example
+## Ejemplo
 > arr = [1,3,5,7,9]
 
-The minimum sum is __1 + 3 + 5 + 7 = 16__ and the maximum sum is __3 + 5 + 7 + 9 = 24__. 
+El mínimo de la suma es __1 + 3 + 5 + 7 = 16__ y el máximo de la suma es __3 + 5 + 7 + 9 = 24__. 
 
-The function prints
+La función imprime
 > 16 24
 
 
-## Function Description
+## Descripción de la función
 
-Complete the miniMaxSum function in the editor below.
+Completar la función miniMaxSum en el editor debajo.
 
-miniMaxSum has the following parameter(s):
+miniMaxSum tiene los siguientes parámetros:
 
-* arr: an array of __5__ integers
+* arr: un arreglo de __5__ enteros
 
-## Print
+## Imprimir
 
-Print two space-separated integers on one line: the minimum sum and the maximum sum of __4__ of __5__ elements.
+Imprime dos enteros separados por un espacio en una línea: la suma mínima y la suma máxima de __4__ de __5__ elementos.
 
-## Input Format
+## Formato de entrada
 
-A single line of five space-separated integers.
+Una sola linea de 5 enteros separados por espacios
 
-## Constraints
+## Restricciones
 > 1 <= arr[i] <= 10^9
 
-## Output Format
+## Formato de salida
 
-Print two space-separated long integers denoting the respective minimum and maximum values that can be calculated by summing exactly four of the five integers.
+Imprime dos enteros largos separados por espacio que representan los valores mínimo y máximo que se pueden calcular sumando exactamente cuatro de los cinco enteros.
 
-(The output can be greater than a 32 bit integer.)
+(La salida debe ser mayor a un entero de 32 bit)
 
-## Sample Input
+## Ejemplo de entrada
 > 1 2 3 4 5
 
-## Sample Output
+## Ejemplo de salida
 
 > 10 14
 
-## Explanation
+## Explicación
 
-The numbers are __1, 2, 3, 4, and 5__.
+Los números son __1, 2, 3, 4, y 5__.
 
-Calculate the following sums using four of the five integers:
+Calcular las siguientes sumas usando cuatro de los cinco enteros:
 
-1. Sum everything except __1__, the sum is __2 + 3 + 4 + 5 = 14__.
-2. Sum everything except __2__, the sum is __1 + 3 + 4 + 5 = 13__.
-3. Sum everything except __3__, the sum is __1 + 2 + 4 + 5 = 13__.
-4. Sum everything except __4__, the sum is __1 + 2 + 3 + 5 = 11__.
-5. Sum everything except __5__, the sum is __1 + 2 + 3 + 4 = 10__.
+1. Sumar todo excepto __1__, la suma es __2 + 3 + 4 + 5 = 14__.
+2. Sumar todo excepto __2__, la suma es __1 + 3 + 4 + 5 = 13__.
+3. Sumar todo excepto __3__, la suma es __1 + 2 + 4 + 5 = 13__.
+4. Sumar todo excepto __4__, la suma es __1 + 2 + 3 + 5 = 11__.
+5. Sumar todo excepto __5__, la suma es __1 + 2 + 3 + 4 = 10__.
 
-__Hints:__ Beware of integer overflow! Use 64-bit Integer.
+__Pistas:__ ¡Cuidado con el desbordamiento de enteros! Use enteros de 64 bits.
 
 #
-# Author
+# Autor
 ## *DeGsoft*
 
-[Youtube](https://www.youtube.com/channel/UCA3EHMeYoeCRN5gBm97UaHQ)
+[YouTube](https://www.youtube.com/@degsoft)
 
 [LinkedIn](https://www.linkedin.com/in/diegoezequielguillen)
 

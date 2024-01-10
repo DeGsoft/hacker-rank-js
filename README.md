@@ -1,15 +1,15 @@
 # hacker-rank-js
-Problems solved in Js
+Problemas resueltos en Js
 
 [![HackerRank](https://hrcdn.net/fcore/assets/brand/logo-new-white-green-a5cb16e0ae.svg)](https://www.hackerrank.com)
 #
-Is a technology hiring platform that is the standard for assessing developer skills for over 3,000+ companies around the world. By enabling tech recruiters and hiring managers to objectively evaluate talent at every stage of the recruiting process, HackerRank helps companies hire skilled developers and innovate faster!
+HackerRank es una plataforma de contratación tecnológica que es el estándar para evaluar las habilidades de los desarrolladores en más de 3,000 empresas de todo el mundo. Al permitir a los reclutadores y gerentes de contratación evaluar objetivamente el talento en cada etapa del proceso de contratación, HackerRank ayuda a las empresas a contratar desarrolladores capacitados e innovar más rápido.
 
 #
 # Author
 ## *DeGsoft*
 
-[Youtube](https://www.youtube.com/channel/UCA3EHMeYoeCRN5gBm97UaHQ)
+[YouTube](https://www.youtube.com/@degsoft)
 
 [LinkedIn](https://www.linkedin.com/in/diegoezequielguillen)
 

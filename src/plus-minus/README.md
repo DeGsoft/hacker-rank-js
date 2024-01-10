@@ -1,56 +1,56 @@
 # Plus Minus
-Given an array of integers, calculate the ratios of its elements that are positive, negative, and zero. 
-Print the decimal value of each fraction on a new line with __6__ places after the decimal.
+Dado un array de enteros, calcula las proporciones de sus elementos que son positivos, negativos y cero.
+Imprime el valor decimal de cada fracción en una nueva línea con __6__ lugares decimales.
 
-__Note__: 
-This challenge introduces precision problems. 
-The test cases are scaled to six decimal places, though answers with absolute error of up to __10^-4__ are acceptable.
+__Nota__:
+Este desafío presenta problemas de precisión.
+Los casos de prueba están escalados a seis lugares decimales, aunque se aceptan respuestas con un error absoluto de hasta __10^-4__.
 
-## Example
+## Ejemplo
 __arr = [1,1,0,-1,-1]__
 
-There are __n = 5__ elements, two positive, two negative and one zero. 
-Their ratios are __2/5 = 0.400000__, __2/5 = 0.400000__ and __1/5 = 0.200000__. Results are printed as:
-
+Hay __n = 5__ elementos, dos positivos, dos negativos y uno cero.
+Sus proporciones son __2/5 = 0.400000__, __2/5 = 0.400000__ y __1/5 = 0.200000__. 
+Los resultados se imprimen como:
 ```
 0.400000
 0.400000
 0.200000
 ```
 
-## Function Description
+## Descripción de la función
 
-Complete the plusMinus function in the editor below.
+Completa la función plusMinus en el editor de abajo.
 
-plusMinus has the following parameter(s):
+plusMinus tiene el siguiente(s) parámetro(s):
 
-* int arr[n]: an array of integers
+* int arr[n]: un arreglo de enteros
 
-## Print
+## Imprimir
 
-Print the ratios of positive, negative and zero values in the array. Each value should be printed on a separate line with  digits after the decimal. The function should not return a value.
+Imprime las proporciones de valores positivos, negativos y cero en el arreglo. Cada valor debe imprimirse en una línea separada con dígitos después del decimal. La función no debe devolver ningún valor.
 
-## Input Format
+## Formato de Entrada
 
-The first line contains an integer, __n__, the size of the array.
-The second line contains __n__ space-separated integers that describe __arr[n]__.
+La primera línea contiene un entero, __n__, el tamaño del arreglo.
+La segunda línea contiene __n__ enteros separados por espacios que describen __arr[n]__.
 
-## Constraints
+## Restricciones
 
 ```
 0 < n <= 100
 -10 <= arr [i] <= 100
 ```
 
-## Output Format
+## Formato de Salida
 
-__Print__ the following __3__ lines, each to __6__ decimals:
+__Imprime__ las siguientes __3__ líneas, cada una con __6__ decimales:
 
-1. proportion of positive values
-2. proportion of negative values
-3. proportion of zeros
+1. proporción de valores positivos
+2. proporción de valores negativos
+3. proporción de ceros
 
-## Sample Input
+## Entrada de Ejemplo
 
 ```
 STDIN           Function
@@ -59,7 +59,7 @@ STDIN           Function
 -4 3 -9 0 4 1   arr = [-4, 3, -9, 0, 4, 1]
 ```
 
-## Sample Output
+## Salida de Ejemplo
 
 ```
 0.500000
@@ -67,16 +67,16 @@ STDIN           Function
 0.166667
 ```
 
-## Explanation
+## Explicación
 
-There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
-The proportions of occurrence are positive: __3/6 = 0.500000__, negative: __2/6 = 0.33333__ and zeros: __1/6 = 0.166667__.
+Hay 3 números positivos, 2 números negativos y 1 cero en el arreglo.
+Las proporciones de ocurrencia son positivos: __3/6 = 0.500000__, negativos: __2/6 = 0.33333__ y ceros: __1/6 = 0.166667__.
 
 #
-# Author
+# Autor
 ## *DeGsoft*
 
-[Youtube](https://www.youtube.com/channel/UCA3EHMeYoeCRN5gBm97UaHQ)
+[YouTube](https://www.youtube.com/@degsoft)
 
 [LinkedIn](https://www.linkedin.com/in/diegoezequielguillen)
 
