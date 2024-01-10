@@ -1,36 +1,10 @@
-// 'use strict';
-
-// const fs = require('fs');
-
-// process.stdin.resume();
-// process.stdin.setEncoding('utf-8');
-
-// let inputString = '';
-// let currentLine = 0;
-
-// process.stdin.on('data', function(inputStdin) {
-//     inputString += inputStdin;
-// });
-
-// process.stdin.on('end', function() {
-//     inputString = inputString.split('\n');
-
-//     main();
-// });
-
-// function readLine() {
-//     return inputString[currentLine++];
-// }
-
-/*
- * Complete the 'timeConversion' function below.
+/**
+ * Convierte una cadena de tiempo en formato de 12 horas a formato de 24 horas.
  *
- * The function is expected to return a STRING.
- * The function accepts STRING s as parameter.
+ * @param {string} s - La cadena de tiempo en formato de 12 horas.
+ * @returns {string} La cadena de tiempo convertida en formato de 24 horas.
  */
-
 function timeConversion(s) {
-    // Write your code here
     const isAM = s.includes("AM");
     const isPM = s.includes("PM");
     const hh = s.slice(0, 2);
@@ -45,16 +19,5 @@ function timeConversion(s) {
     return s;
 }
 
-// function main() {
-//     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
-
-//     const s = readLine();
-
-//     const result = timeConversion(s);
-
-//     ws.write(result + '\n');
-
-//     ws.end();
-// }
 console.log(timeConversion('12:01:00AM'))//'00:01:00'
 console.log(timeConversion('07:05:45PM'))//'19:05:45'
