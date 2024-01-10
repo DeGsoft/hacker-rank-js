@@ -1,33 +1,20 @@
-// 'use strict';
 
-// process.stdin.resume();
-// process.stdin.setEncoding('utf-8');
-
-// let inputString = '';
-// let currentLine = 0;
-
-// process.stdin.on('data', function(inputStdin) {
-//     inputString += inputStdin;
-// });
-
-// process.stdin.on('end', function() {
-//     inputString = inputString.split('\n');
-
-//     main();
-// });
-
-// function readLine() {
-//     return inputString[currentLine++];
-// }
-
-/*
- * Complete the 'plusMinus' function below.
- *
- * The function accepts INTEGER_ARRAY arr as parameter.
+/**
+ * Calcula la proporción de números positivos, negativos y cero en un array dado.
+ * @param {number[]} arr - El array de números.
+ * @returns {void}
  */
-
 function plusMinus(arr) {
-    // Write your code here
+
+    /**
+     * Imprime un número con 6 decimales.
+     * @param {number} value - El número a imprimir.
+     * @returns {void}
+     */
+    const print = (value) => {
+        console.log(Number(value).toFixed(6));
+    }
+
     const length = arr.length;
     let positive = 0;
     let negative = 0;
@@ -40,20 +27,9 @@ function plusMinus(arr) {
         else if (number < 0) negative++;        
     }
 
-    function print (value) {
-        console.log(Number(value).toFixed(6));
-    }
-
     print(positive/length);
     print(negative/length);
     print(zero/length);
 }
 
-// function main() {
-//     const n = parseInt(readLine().trim(), 10);
-
-//     const arr = readLine().replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10));
-
-//     plusMinus(arr);
-// }
-console.log(plusMinus([-4, 3, -9, 0, 4, 1]))
+plusMinus([-4, 3, -9, 0, 4, 1])
